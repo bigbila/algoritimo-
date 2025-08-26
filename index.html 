@@ -135,4 +135,76 @@
             <button class="btn-proximo" data-proximo="3">Procurar a pista no topo do pico</button>
             <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
         </div>
-        </main>
+        </main><!-- código omitido -->
+
+    <script src="script.js"></script>
+</body>
+</html><!-- código omitido -->
+<!-- código omitido -->
+
+<main>
+        <div class="passo ativo" id="passo-0">
+
+<!-- código omitido -->
+const avanca = document.querySelectorAll('.btn-proximo');
+
+avanca.forEach(button => {
+    button.addEventListener('click', function(){
+        const atual = document.querySelector('.ativo');
+        const proximoPasso = 'passo-' + this.getAttribute('data-proximo');
+
+        atual.classList.remove('ativo');
+        document.getElementById(proximoPasso).classList.add('ativo');
+    })
+<!-- código omitido -->
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
